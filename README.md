@@ -1,1 +1,4 @@
 # Cryptocurrencies
+
+## Overview
+For this challenge, we were assigned the task of creating a report that includes what cryptocurrencies are on the trading market and how they could be grouped to create a classficiation system. We were to first preprocess the cryptocurrency dataset to perform PCA. We then applied the PCA algorithm to reduce the dimensions of the X DataFrame to three different principal components and placed them in a new DataFrame. Using the K-means algorithm, we created an elbow curve using hvPlot to find the best value for K from the pcs_df DataFrame that was created. The K-means algorithm was ran to predict the K-clusters for the cryptocurrencies' data. Once the clusters were predicted, we then visualized the distinct groups that corresponded to the three different princicpal components. Finally, a table with all the currently tradable cryptocurrencies was created. 
